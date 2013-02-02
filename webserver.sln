@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webserver", "webserver\webserver.vcproj", "{BC64FDE2-976B-4A90-B0A4-B4B811055254}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCSignal", "MFCSignal\MFCSignal.vcproj", "{E4B8EFDB-29BE-4E43-86B5-2BB64231CB89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "postdata", "postdata\postdata.vcproj", "{746D3179-71CA-41B9-AF00-B9D15FFDDF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC64FDE2-976B-4A90-B0A4-B4B811055254}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC64FDE2-976B-4A90-B0A4-B4B811055254}.Debug|Win32.Build.0 = Debug|Win32
+		{BC64FDE2-976B-4A90-B0A4-B4B811055254}.Release|Win32.ActiveCfg = Release|Win32
+		{BC64FDE2-976B-4A90-B0A4-B4B811055254}.Release|Win32.Build.0 = Release|Win32
+		{E4B8EFDB-29BE-4E43-86B5-2BB64231CB89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4B8EFDB-29BE-4E43-86B5-2BB64231CB89}.Debug|Win32.Build.0 = Debug|Win32
+		{E4B8EFDB-29BE-4E43-86B5-2BB64231CB89}.Release|Win32.ActiveCfg = Release|Win32
+		{E4B8EFDB-29BE-4E43-86B5-2BB64231CB89}.Release|Win32.Build.0 = Release|Win32
+		{746D3179-71CA-41B9-AF00-B9D15FFDDF66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{746D3179-71CA-41B9-AF00-B9D15FFDDF66}.Debug|Win32.Build.0 = Debug|Win32
+		{746D3179-71CA-41B9-AF00-B9D15FFDDF66}.Release|Win32.ActiveCfg = Release|Win32
+		{746D3179-71CA-41B9-AF00-B9D15FFDDF66}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

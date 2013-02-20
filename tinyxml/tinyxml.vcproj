@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="webserverDemon"
-	ProjectGUID="{BC64FDE2-976B-4A90-B0A4-B4B811055254}"
-	RootNamespace="webserver"
+	Name="tinyxml"
+	ProjectGUID="{331225A9-2F42-4F99-83B3-36F24935A951}"
+	RootNamespace="tinyxml"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -21,7 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -62,7 +62,7 @@
 				Name="VCLinkerTool"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
-				SubSystem="2"
+				SubSystem="1"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -171,11 +171,23 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\main.c"
+				RelativePath=".\tinystr.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\mongoose.c"
+				RelativePath=".\tinyxml.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\tinyxmlerror.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\tinyxmlparser.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\xmltest.cpp"
 				>
 			</File>
 		</Filter>
@@ -185,7 +197,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\mongoose.h"
+				RelativePath=".\tinystr.h"
+				>
+			</File>
+			<File
+				RelativePath=".\tinyxml.h"
 				>
 			</File>
 		</Filter>

@@ -174,7 +174,7 @@ void CpostdataDlg::OnBnClickedOk2()
 {
     // http://192.168.0.163:8081/pay?email=4545@qq.com&pwd=3##9-+&save_login=2 参数以GET方式发送给服务器
     CString strRet;
-    CString strUrl = "http://192.168.0.163:8081/pay?email=4545@qq.com&pwd=3##9-+&save_login=2";
+    CString strUrl = "http://192.168.0.187:8088/callback/logon.php?userId=1234567890&key=012345678901234567890123&channelId=xx&region=0&cpparam=xx";
     if(HttpGet(strUrl,strRet))
         MessageBox(strRet.GetBuffer());
     else

@@ -140,7 +140,15 @@ void * CmgManager::mongoose_callback( enum mg_event ev, struct mg_connection *co
         }
         else if( stricmp(pInfo->request_method,"GET") == 0 )
         {
-            sprintf(szRet,"get uri:%s  para:%s",pInfo->uri,pInfo->query_string);
+            //sprintf(szRet,"get uri:%s  para:%s",pInfo->uri,pInfo->query_string);
+
+            char szContent[_MAX_PATH] = {0};
+            sprintf(szContent,"%s","return ok");
+            
+            //  ·µ»ØHTTPÍ·+ÄÚÈÝ
+            sprintf( szRet, "HTTP/1.1 %d \r\n"
+                "Content-Length: %d\r\n"
+                "Connection: %s\r\n\r\n%s\n", 200,strlen(szContent),"close",szContent);
         }
         //mg_write_status( conn, szRet, strlen(szRet),200 );
         mg_write( conn, szRet, strlen(szRet) );

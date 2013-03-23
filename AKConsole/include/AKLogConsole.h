@@ -88,3 +88,11 @@ namespace aktool
 		ofstream m_File;
 	};
 }
+
+#ifndef _BULID_AKCONSOLE_LIB
+    #ifdef _DEBUG
+        #pragma comment(lib,"AKConsole_D.lib")
+    #else
+        #pragma comment(lib,"AKConsole.lib")
+    #endif
+#endif

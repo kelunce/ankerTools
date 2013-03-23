@@ -4,8 +4,8 @@
 
 应用程序向导已为您创建了此 AKConsole 库项目。
 
-没有为此项目创建源文件。
-
+编译项目需要定义宏_BULID_AKCONSOLE_LIB
+使用项目不需要定义该宏
 
 AKConsole.vcproj
     这是使用应用程序向导生成的 VC++ 项目的主项目文件，

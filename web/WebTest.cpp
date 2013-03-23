@@ -3,8 +3,8 @@
 //
 
 #include "stdafx.h"
-#include "MFCSignal.h"
-#include "MFCSignalDlg.h"
+#include "WebTest.h"
+#include "WebTestDlg.h"
 #include <signal.h>
 
 #ifdef _DEBUG

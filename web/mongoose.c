@@ -6056,6 +6056,7 @@ void mg_stop( struct mg_context *ctx )
 
 #if defined(_WIN32) && !defined(__SYMBIAN32__)
     ( void ) WSACleanup();
+    DeleteCriticalSection(&global_log_file_lock);
 #endif // _WIN32
 }
 
